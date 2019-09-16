@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "@cassette/components@2.0.0-alpha.33",
+      "/Users/home/Documents/workspace/arubapage/arubapage/my-app"
+    ]
+  ],
+  "_from": "@cassette/components@2.0.0-alpha.33",
+  "_id": "@cassette/components@2.0.0-alpha.33",
+  "_inBundle": false,
+  "_integrity": "sha512-tbLaim7atplSlX1WKLXdRU/QS1Xgxo4vkgX/rGYxwSu3gh8ooFfpjFXkng9qc3EVz3oy23a2N1tpLlP4uwi7QA==",
+  "_location": "/@cassette/components",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@cassette/components@2.0.0-alpha.33",
+    "name": "@cassette/components",
+    "escapedName": "@cassette%2fcomponents",
+    "scope": "@cassette",
+    "rawSpec": "2.0.0-alpha.33",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-alpha.33"
+  },
+  "_requiredBy": [
+    "/@cassette/player"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cassette/components/-/components-2.0.0-alpha.33.tgz",
+  "_spec": "2.0.0-alpha.33",
+  "_where": "/Users/home/Documents/workspace/arubapage/arubapage/my-app",
+  "author": {
+    "name": "Ben Wiley",
+    "email": "therealbenwiley@gmail.com",
+    "url": "http://benwiley.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/benwiley4000/cassette/issues"
+  },
+  "dependencies": {
+    "@cassette/core": "^2.0.0-alpha.33",
+    "prop-types": "^15.5.10",
+    "resize-observer-polyfill": "^1.4.2"
+  },
+  "description": "A simple, clean, and responsive visual wrapper for the HTML audio tag, built with React.",
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.0.0"
+  },
+  "gitHead": "3ea7031e7a4b7cec3628fc0b07bc311003c0d51d",
+  "homepage": "https://github.com/benwiley4000/cassette#readme",
+  "keywords": [
+    "audio",
+    "video",
+    "media",
+    "ui",
+    "react",
+    "reactjs",
+    "responsive",
+    "music",
+    "player",
+    "html5",
+    "component",
+    "components"
+  ],
+  "license": "MIT",
+  "main": "dist/es5/cassette-components.js",
+  "name": "@cassette/components",
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benwiley4000/cassette.git"
+  },
+  "scripts": {
+    "build": "npm run build:clean && npm run build:webpack",
+    "build:clean": "rimraf dist",
+    "build:webpack": "BUILD_MODE=all webpack --progress",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0-alpha.33"
+}
